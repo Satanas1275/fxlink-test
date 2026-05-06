@@ -34,14 +34,14 @@ target_compile_options(myaddin PRIVATE -Wall -Wextra -Os -g -flto)
 target_link_libraries(myaddin Gint::Gint)
 
 if("${FXSDK_PLATFORM_LONG}" STREQUAL fx9860G)
-  generate_g1a(TARGET myaddin OUTPUT "text.g1a"
-    NAME "MyAddin" ICON assets-fx/icon.png)
+  generate_g1a(TARGET myaddin OUTPUT "image.g1a"
+    NAME "ImageXfer" ICON assets-fx/icon.png)
 elseif("${FXSDK_PLATFORM_LONG}" STREQUAL fxCG50)
-  generate_g3a(TARGET myaddin OUTPUT "MyAddin.g3a"
-    NAME "MyAddin" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
+  generate_g3a(TARGET myaddin OUTPUT "ImageXfer.g3a"
+    NAME "ImageXfer" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
 elseif("${FXSDK_PLATFORM_LONG}" STREQUAL fx9860G_G3A)
-  generate_g3a(TARGET myaddin OUTPUT "MyAddin-fx.g3a"
-    NAME "MyAddin-fx" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
+  generate_g3a(TARGET myaddin OUTPUT "ImageXfer-fx.g3a"
+    NAME "ImageXfer-fx" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
 elseif("${FXSDK_PLATFORM_LONG}" STREQUAL fxCP)
-  generate_hh2_bin(TARGET myaddin OUTPUT "MyAddin-hh2.bin")
+  generate_hh2_bin(TARGET myaddin OUTPUT "ImageXfer-hh2.bin")
 endif()
