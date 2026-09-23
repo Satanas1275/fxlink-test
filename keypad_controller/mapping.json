@@ -1,0 +1,28 @@
+{
+    "keyboard": {
+        "2": "z",
+        "0": "q",
+        "DOT": "s",
+        "MUL": "d",
+        "F1": "&",
+        "F2": "é",
+        "F3": "\"",
+        "F4": "'",
+        "F5": "(",
+        "F6": "-",
+        "SHIFT": "è",
+        "OPTN": "_",
+        "VARS": "ç",
+        "EXE": "space",
+        "EXIT": "escape",
+        "MENU": "t",
+        "DEL": "r"
+    },
+    "mouse": {
+        "speed": 10,
+        "buttons": {
+            "7": "left_click",
+            "9": "right_click"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+CMakeFiles/gamepad.dir/src/main.c.obj: \
+ /run/media/satanas/data/codage/fxlink-test/keypad_controller/src/main.c \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/display.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/defs/types.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/defs/attributes.h \
+ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include/stddef.h \
+ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include/stdint.h \
+ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include/stdint-gcc.h \
+ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include/stdbool.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/sys/types.h \
+ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include/stdarg.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/defs/call.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/config.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/display-fx.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/keyboard.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/keycodes.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/usb.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/defs/timeout.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/time.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/gint.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/intc.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/endian.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/gint/usb-ff-bulk.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/string.h \
+ /home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/stdio.h

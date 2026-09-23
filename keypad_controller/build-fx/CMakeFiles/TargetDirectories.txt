@@ -1,0 +1,3 @@
+/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/gamepad.dir
+/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/edit_cache.dir
+/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/rebuild_cache.dir

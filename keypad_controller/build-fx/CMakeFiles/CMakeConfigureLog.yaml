@@ -1,0 +1,2381 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/opt/flutter/bin/"
+      - "/home/satanas/.local/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/opt/flutter/bin/uname"
+      - "/home/satanas/.local/bin/uname"
+      - "/usr/lib/jvm/java-21-openjdk/bin/uname"
+      - "/usr/lib/jvm/java-8-openjdk/bin/uname"
+      - "/home/satanas/.opencode/bin/uname"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Generic - 1 - sh
+      The host system is: Linux - 7.2.3-1-cachyos - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/opt/flutter/bin/"
+      - "/home/satanas/.local/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/opt/flutter/bin/gmake"
+      - "/home/satanas/.local/bin/gmake"
+      - "/usr/lib/jvm/java-21-openjdk/bin/gmake"
+      - "/usr/lib/jvm/java-8-openjdk/bin/gmake"
+      - "/home/satanas/.opencode/bin/gmake"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/opt/android-sdk/platform-tools/gmake"
+      - "/opt/android-sdk/tools/gmake"
+      - "/opt/android-sdk/tools/bin/gmake"
+      - "/opt/cuda/bin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/usr/lib/jvm/default/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/usr/lib/rustup/bin/gmake"
+      - "/opt/flutter/bin/make"
+      - "/home/satanas/.local/bin/make"
+      - "/usr/lib/jvm/java-21-openjdk/bin/make"
+      - "/usr/lib/jvm/java-8-openjdk/bin/make"
+      - "/home/satanas/.opencode/bin/make"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-gcc"
+    candidate_directories:
+      - "/opt/flutter/bin/"
+      - "/home/satanas/.local/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/opt/flutter/bin/sh-elf-gcc"
+    found: "/home/satanas/.local/bin/sh-elf-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/satanas/.local/lib/cmake/fxsdk/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/satanas/.local/bin/sh-elf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : dso.c.obj (symbol from plugin) : dans la fonction « ___cxa_atexit » :
+      (.text+0x0) : définitions multiples de « ___dso_handle »; /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/crtbegin.o:(.data+0x0) : défini pour la première fois ici
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : /tmp/cc673wM1.ltrans0.ltrans.o : dans la fonction « _exit » :
+      <artificial>:(.text+0xb8) : référence indéfinie vers « __Exit »
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : /tmp/cc673wM1.ltrans0.ltrans.o : dans la fonction « _alloc_dtors » :
+      <artificial>:(.text.startup+0x18) : référence indéfinie vers « _kmalloc »
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: Erreur DWARF: numéro de ligne de section mutilé (mauvais no. de fichier)
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/crt1.o : dans la fonction « main_k » :
+      (.text+0x5c) : référence indéfinie vers « ___setup_argv_and_call_main »
+      collect2: erreur: ld a retourné le statut de sortie 1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/satanas/.local/lib/cmake/fxsdk/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/satanas/.local/bin/sh-elf-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/4.4.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-ar"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-strip"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-ld"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-nm"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/satanas/.local/bin/sh-elf-dlltool"
+      - "/opt/flutter/bin/sh-elf-dlltool"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-dlltool"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-dlltool"
+      - "/home/satanas/.opencode/bin/sh-elf-dlltool"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-dlltool"
+      - "/usr/local/bin/sh-elf-dlltool"
+      - "/usr/bin/sh-elf-dlltool"
+      - "/bin/sh-elf-dlltool"
+      - "/usr/local/sbin/sh-elf-dlltool"
+      - "/opt/android-sdk/platform-tools/sh-elf-dlltool"
+      - "/opt/android-sdk/tools/sh-elf-dlltool"
+      - "/opt/android-sdk/tools/bin/sh-elf-dlltool"
+      - "/opt/cuda/bin/sh-elf-dlltool"
+      - "/var/lib/flatpak/exports/bin/sh-elf-dlltool"
+      - "/usr/lib/jvm/default/bin/sh-elf-dlltool"
+      - "/usr/bin/site_perl/sh-elf-dlltool"
+      - "/usr/bin/vendor_perl/sh-elf-dlltool"
+      - "/usr/bin/core_perl/sh-elf-dlltool"
+      - "/usr/lib/rustup/bin/sh-elf-dlltool"
+      - "/home/satanas/.local/bin/dlltool"
+      - "/opt/flutter/bin/dlltool"
+      - "/usr/lib/jvm/java-21-openjdk/bin/dlltool"
+      - "/usr/lib/jvm/java-8-openjdk/bin/dlltool"
+      - "/home/satanas/.opencode/bin/dlltool"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/opt/android-sdk/platform-tools/dlltool"
+      - "/opt/android-sdk/tools/dlltool"
+      - "/opt/android-sdk/tools/bin/dlltool"
+      - "/opt/cuda/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/lib/jvm/default/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+      - "/usr/lib/rustup/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    found: "/home/satanas/.local/bin/sh-elf-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/satanas/.local/bin/sh-elf-tapi"
+      - "/opt/flutter/bin/sh-elf-tapi"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-tapi"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-tapi"
+      - "/home/satanas/.opencode/bin/sh-elf-tapi"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-tapi"
+      - "/usr/local/bin/sh-elf-tapi"
+      - "/usr/bin/sh-elf-tapi"
+      - "/bin/sh-elf-tapi"
+      - "/usr/local/sbin/sh-elf-tapi"
+      - "/opt/android-sdk/platform-tools/sh-elf-tapi"
+      - "/opt/android-sdk/tools/sh-elf-tapi"
+      - "/opt/android-sdk/tools/bin/sh-elf-tapi"
+      - "/opt/cuda/bin/sh-elf-tapi"
+      - "/var/lib/flatpak/exports/bin/sh-elf-tapi"
+      - "/usr/lib/jvm/default/bin/sh-elf-tapi"
+      - "/usr/bin/site_perl/sh-elf-tapi"
+      - "/usr/bin/vendor_perl/sh-elf-tapi"
+      - "/usr/bin/core_perl/sh-elf-tapi"
+      - "/usr/lib/rustup/bin/sh-elf-tapi"
+      - "/home/satanas/.local/bin/tapi"
+      - "/opt/flutter/bin/tapi"
+      - "/usr/lib/jvm/java-21-openjdk/bin/tapi"
+      - "/usr/lib/jvm/java-8-openjdk/bin/tapi"
+      - "/home/satanas/.opencode/bin/tapi"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/opt/android-sdk/platform-tools/tapi"
+      - "/opt/android-sdk/tools/tapi"
+      - "/opt/android-sdk/tools/bin/tapi"
+      - "/opt/cuda/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/usr/lib/rustup/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-gcc-ar-14.1"
+      - "sh-elf-gcc-ar-14"
+      - "sh-elf-gcc-ar14"
+      - "sh-elf-gcc-ar"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/satanas/.local/bin/sh-elf-gcc-ar-14.1"
+      - "/opt/flutter/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ar-14.1"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ar-14.1"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/local/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/sh-elf-gcc-ar-14.1"
+      - "/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/local/sbin/sh-elf-gcc-ar-14.1"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ar-14.1"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ar-14.1"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ar-14.1"
+      - "/opt/cuda/bin/sh-elf-gcc-ar-14.1"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/site_perl/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/core_perl/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ar-14.1"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ar-14"
+      - "/opt/flutter/bin/sh-elf-gcc-ar-14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ar-14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ar-14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ar-14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ar-14"
+      - "/usr/local/bin/sh-elf-gcc-ar-14"
+      - "/usr/bin/sh-elf-gcc-ar-14"
+      - "/bin/sh-elf-gcc-ar-14"
+      - "/usr/local/sbin/sh-elf-gcc-ar-14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ar-14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ar-14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ar-14"
+      - "/opt/cuda/bin/sh-elf-gcc-ar-14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ar-14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ar-14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ar-14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ar-14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ar-14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ar-14"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ar14"
+      - "/opt/flutter/bin/sh-elf-gcc-ar14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ar14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ar14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ar14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ar14"
+      - "/usr/local/bin/sh-elf-gcc-ar14"
+      - "/usr/bin/sh-elf-gcc-ar14"
+      - "/bin/sh-elf-gcc-ar14"
+      - "/usr/local/sbin/sh-elf-gcc-ar14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ar14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ar14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ar14"
+      - "/opt/cuda/bin/sh-elf-gcc-ar14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ar14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ar14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ar14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ar14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ar14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ar14"
+    found: "/home/satanas/.local/bin/sh-elf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-gcc-ranlib-14.1"
+      - "sh-elf-gcc-ranlib-14"
+      - "sh-elf-gcc-ranlib14"
+      - "sh-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/satanas/.local/bin/sh-elf-gcc-ranlib-14.1"
+      - "/opt/flutter/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ranlib-14.1"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ranlib-14.1"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/local/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/sh-elf-gcc-ranlib-14.1"
+      - "/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/local/sbin/sh-elf-gcc-ranlib-14.1"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ranlib-14.1"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ranlib-14.1"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ranlib-14.1"
+      - "/opt/cuda/bin/sh-elf-gcc-ranlib-14.1"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/site_perl/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/core_perl/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ranlib-14.1"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ranlib-14"
+      - "/opt/flutter/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ranlib-14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ranlib-14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/local/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/sh-elf-gcc-ranlib-14"
+      - "/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/local/sbin/sh-elf-gcc-ranlib-14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ranlib-14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ranlib-14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ranlib-14"
+      - "/opt/cuda/bin/sh-elf-gcc-ranlib-14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ranlib-14"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ranlib14"
+      - "/opt/flutter/bin/sh-elf-gcc-ranlib14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ranlib14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ranlib14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ranlib14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ranlib14"
+      - "/usr/local/bin/sh-elf-gcc-ranlib14"
+      - "/usr/bin/sh-elf-gcc-ranlib14"
+      - "/bin/sh-elf-gcc-ranlib14"
+      - "/usr/local/sbin/sh-elf-gcc-ranlib14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ranlib14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ranlib14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ranlib14"
+      - "/opt/cuda/bin/sh-elf-gcc-ranlib14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ranlib14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ranlib14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ranlib14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ranlib14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ranlib14"
+    found: "/home/satanas/.local/bin/sh-elf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-g++"
+    candidate_directories:
+      - "/opt/flutter/bin/"
+      - "/home/satanas/.local/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/opt/flutter/bin/sh-elf-g++"
+    found: "/home/satanas/.local/bin/sh-elf-g++"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/satanas/.local/lib/cmake/fxsdk/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/satanas/.local/bin/sh-elf-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : dso.c.obj (symbol from plugin) : dans la fonction « ___cxa_atexit » :
+      (.text+0x0) : définitions multiples de « ___dso_handle »; /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/crtbegin.o:(.data+0x0) : défini pour la première fois ici
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : /tmp/ccJXaOK3.ltrans0.ltrans.o : dans la fonction « _exit » :
+      <artificial>:(.text+0xb8) : référence indéfinie vers « __Exit »
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : /tmp/ccJXaOK3.ltrans0.ltrans.o : dans la fonction « _alloc_dtors » :
+      <artificial>:(.text.startup+0x18) : référence indéfinie vers « _kmalloc »
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld : /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: Erreur DWARF: numéro de ligne de section mutilé (mauvais no. de fichier)
+      /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/crt1.o : dans la fonction « main_k » :
+      (.text+0x5c) : référence indéfinie vers « ___setup_argv_and_call_main »
+      collect2: erreur: ld a retourné le statut de sortie 1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/satanas/.local/lib/cmake/fxsdk/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/satanas/.local/bin/sh-elf-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/4.4.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-gcc-ar-14.1"
+      - "sh-elf-gcc-ar-14"
+      - "sh-elf-gcc-ar14"
+      - "sh-elf-gcc-ar"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/satanas/.local/bin/sh-elf-gcc-ar-14.1"
+      - "/opt/flutter/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ar-14.1"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ar-14.1"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/local/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/sh-elf-gcc-ar-14.1"
+      - "/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/local/sbin/sh-elf-gcc-ar-14.1"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ar-14.1"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ar-14.1"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ar-14.1"
+      - "/opt/cuda/bin/sh-elf-gcc-ar-14.1"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/site_perl/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ar-14.1"
+      - "/usr/bin/core_perl/sh-elf-gcc-ar-14.1"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ar-14.1"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ar-14"
+      - "/opt/flutter/bin/sh-elf-gcc-ar-14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ar-14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ar-14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ar-14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ar-14"
+      - "/usr/local/bin/sh-elf-gcc-ar-14"
+      - "/usr/bin/sh-elf-gcc-ar-14"
+      - "/bin/sh-elf-gcc-ar-14"
+      - "/usr/local/sbin/sh-elf-gcc-ar-14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ar-14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ar-14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ar-14"
+      - "/opt/cuda/bin/sh-elf-gcc-ar-14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ar-14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ar-14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ar-14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ar-14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ar-14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ar-14"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ar14"
+      - "/opt/flutter/bin/sh-elf-gcc-ar14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ar14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ar14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ar14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ar14"
+      - "/usr/local/bin/sh-elf-gcc-ar14"
+      - "/usr/bin/sh-elf-gcc-ar14"
+      - "/bin/sh-elf-gcc-ar14"
+      - "/usr/local/sbin/sh-elf-gcc-ar14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ar14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ar14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ar14"
+      - "/opt/cuda/bin/sh-elf-gcc-ar14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ar14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ar14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ar14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ar14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ar14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ar14"
+    found: "/home/satanas/.local/bin/sh-elf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sh-elf-gcc-ranlib-14.1"
+      - "sh-elf-gcc-ranlib-14"
+      - "sh-elf-gcc-ranlib14"
+      - "sh-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/satanas/.local/bin/"
+      - "/opt/flutter/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/satanas/.local/bin/sh-elf-gcc-ranlib-14.1"
+      - "/opt/flutter/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ranlib-14.1"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ranlib-14.1"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/local/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/sh-elf-gcc-ranlib-14.1"
+      - "/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/local/sbin/sh-elf-gcc-ranlib-14.1"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ranlib-14.1"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ranlib-14.1"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ranlib-14.1"
+      - "/opt/cuda/bin/sh-elf-gcc-ranlib-14.1"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/site_perl/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ranlib-14.1"
+      - "/usr/bin/core_perl/sh-elf-gcc-ranlib-14.1"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ranlib-14.1"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ranlib-14"
+      - "/opt/flutter/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ranlib-14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ranlib-14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/local/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/sh-elf-gcc-ranlib-14"
+      - "/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/local/sbin/sh-elf-gcc-ranlib-14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ranlib-14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ranlib-14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ranlib-14"
+      - "/opt/cuda/bin/sh-elf-gcc-ranlib-14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ranlib-14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ranlib-14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ranlib-14"
+      - "/home/satanas/.local/bin/sh-elf-gcc-ranlib14"
+      - "/opt/flutter/bin/sh-elf-gcc-ranlib14"
+      - "/usr/lib/jvm/java-21-openjdk/bin/sh-elf-gcc-ranlib14"
+      - "/usr/lib/jvm/java-8-openjdk/bin/sh-elf-gcc-ranlib14"
+      - "/home/satanas/.opencode/bin/sh-elf-gcc-ranlib14"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/sh-elf-gcc-ranlib14"
+      - "/usr/local/bin/sh-elf-gcc-ranlib14"
+      - "/usr/bin/sh-elf-gcc-ranlib14"
+      - "/bin/sh-elf-gcc-ranlib14"
+      - "/usr/local/sbin/sh-elf-gcc-ranlib14"
+      - "/opt/android-sdk/platform-tools/sh-elf-gcc-ranlib14"
+      - "/opt/android-sdk/tools/sh-elf-gcc-ranlib14"
+      - "/opt/android-sdk/tools/bin/sh-elf-gcc-ranlib14"
+      - "/opt/cuda/bin/sh-elf-gcc-ranlib14"
+      - "/var/lib/flatpak/exports/bin/sh-elf-gcc-ranlib14"
+      - "/usr/lib/jvm/default/bin/sh-elf-gcc-ranlib14"
+      - "/usr/bin/site_perl/sh-elf-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/sh-elf-gcc-ranlib14"
+      - "/usr/bin/core_perl/sh-elf-gcc-ranlib14"
+      - "/usr/lib/rustup/bin/sh-elf-gcc-ranlib14"
+    found: "/home/satanas/.local/bin/sh-elf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ"
+      binary: "/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/satanas/.local/lib/cmake/fxsdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb12f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fb12f.dir/build.make CMakeFiles/cmTC_fb12f.dir/build
+        make[1]: Entering directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ'
+        Building C object CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj
+        /home/satanas/.local/bin/sh-elf-gcc -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa,--dsp -o CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_AS_OPTIONS='--dsp'
+        COLLECT_GCC=/home/satanas/.local/bin/sh-elf-gcc
+        Target: sh3eb-elf
+        Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fb12f.dir/'
+         /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/cc1 -quiet -v -D TARGET_FX9860G /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fb12f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mb -version -ffreestanding -o /tmp/ccYMODKo.s
+        GNU C17 (GCC) version 14.1.0 (sh3eb-elf)
+        	compiled by GNU C version 11.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include
+        End of search list.
+        Compiler executable checksum: e2ab6de184ac3ea35d59dc37180f39d1
+        COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fb12f.dir/'
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj /tmp/ccYMODKo.s
+        COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/
+        LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/
+        COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_fb12f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb12f.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/satanas/.local/bin/sh-elf-gcc
+        COLLECT_LTO_WRAPPER=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper
+        Target: sh3eb-elf
+        Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/
+        LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/
+        COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_fb12f' '-dumpdir' 'cmTC_fb12f.'
+         /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2 -plugin /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so -plugin-opt=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLxHSSr.res -m shelf -o cmTC_fb12f -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0 -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj -lgcc
+        /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start; defaulting to 00001000
+        COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_fb12f' '-dumpdir' 'cmTC_fb12f.'
+        /home/satanas/.local/bin/sh-elf-gcc  -v -nostdlib -Wl,--no-warn-rwx-segments CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj -o cmTC_fb12f  -lgcc
+        make[1]: Leaving directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include]
+        end of search list found
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include] ==> [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed] ==> [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+        implicit include dirs: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include;/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed;/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb12f/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_fb12f.dir/build.make CMakeFiles/cmTC_fb12f.dir/build]
+        ignore line: [make[1]: Entering directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ']
+        ignore line: [Building C object CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/home/satanas/.local/bin/sh-elf-gcc -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa --dsp -o CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_AS_OPTIONS='--dsp']
+        ignore line: [COLLECT_GCC=/home/satanas/.local/bin/sh-elf-gcc]
+        ignore line: [Target: sh3eb-elf]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fb12f.dir/']
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/cc1 -quiet -v -D TARGET_FX9860G /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fb12f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mb -version -ffreestanding -o /tmp/ccYMODKo.s]
+        ignore line: [GNU C17 (GCC) version 14.1.0 (sh3eb-elf)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e2ab6de184ac3ea35d59dc37180f39d1]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fb12f.dir/']
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj /tmp/ccYMODKo.s]
+        ignore line: [COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_fb12f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb12f.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/satanas/.local/bin/sh-elf-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper]
+        ignore line: [Target: sh3eb-elf]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_fb12f' '-dumpdir' 'cmTC_fb12f.']
+        link line: [ /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2 -plugin /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so -plugin-opt=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLxHSSr.res -m shelf -o cmTC_fb12f -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0 -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj -lgcc]
+          arg [/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccLxHSSr.res] ==> ignore
+          arg [-m] ==> ignore
+          arg [shelf] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fb12f] ==> ignore
+          arg [-L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0] ==> dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0]
+          arg [-L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib] ==> dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib]
+          arg [--no-warn-rwx-segments] ==> ignore
+          arg [CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+        ignore line: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start]
+        ignore line: [ defaulting to 00001000]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_fb12f' '-dumpdir' 'cmTC_fb12f.']
+        ignore line: [/home/satanas/.local/bin/sh-elf-gcc  -v -nostdlib -Wl --no-warn-rwx-segments CMakeFiles/cmTC_fb12f.dir/CMakeCCompilerABI.c.obj -o cmTC_fb12f  -lgcc]
+        ignore line: [make[1]: Leaving directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-7VsWhZ']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0] ==> [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0]
+        collapse library dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+        implicit libs: [gcc]
+        implicit objs: []
+        implicit dirs: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0;/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ"
+      binary: "/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/satanas/.local/lib/cmake/fxsdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed423/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ed423.dir/build.make CMakeFiles/cmTC_ed423.dir/build
+        make[1]: Entering directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ'
+        Building CXX object CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj
+        /home/satanas/.local/bin/sh-elf-g++ -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa,--dsp -o CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_AS_OPTIONS='--dsp'
+        COLLECT_GCC=/home/satanas/.local/bin/sh-elf-g++
+        Target: sh3eb-elf
+        Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ed423.dir/'
+         /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/cc1plus -quiet -v -D TARGET_FX9860G /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ed423.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mb -version -ffreestanding -o /tmp/ccIjVUgH.s
+        GNU C++17 (GCC) version 14.1.0 (sh3eb-elf)
+        	compiled by GNU C version 11.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/sh3eb-elf
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/backward
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include
+        End of search list.
+        Compiler executable checksum: e94a44d9eade39cc2f8244ad79532a60
+        COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ed423.dir/'
+         /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccIjVUgH.s
+        COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/
+        LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/
+        COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ed423
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed423.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/satanas/.local/bin/sh-elf-g++
+        COLLECT_LTO_WRAPPER=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper
+        Target: sh3eb-elf
+        Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/
+        LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/
+        COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ed423' '-dumpdir' 'cmTC_ed423.'
+         /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2 -plugin /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so -plugin-opt=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQ73wQ.res -m shelf -o cmTC_ed423 -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0 -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj -lgcc
+        /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start; defaulting to 00001000
+        COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ed423' '-dumpdir' 'cmTC_ed423.'
+        /home/satanas/.local/bin/sh-elf-g++  -v -nostdlib -Wl,--no-warn-rwx-segments CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ed423  -lgcc
+        make[1]: Leaving directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/sh3eb-elf]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/backward]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+          add: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include]
+        end of search list found
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/14.1.0]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/sh3eb-elf] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/14.1.0/sh3eb-elf]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/backward] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/14.1.0/backward]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include] ==> [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed] ==> [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+        collapse include dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+        implicit include dirs: [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/14.1.0;/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/14.1.0/sh3eb-elf;/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/14.1.0/backward;/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include;/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed;/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed423/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ed423.dir/build.make CMakeFiles/cmTC_ed423.dir/build]
+        ignore line: [make[1]: Entering directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/home/satanas/.local/bin/sh-elf-g++ -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa --dsp -o CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_AS_OPTIONS='--dsp']
+        ignore line: [COLLECT_GCC=/home/satanas/.local/bin/sh-elf-g++]
+        ignore line: [Target: sh3eb-elf]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ed423.dir/']
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/cc1plus -quiet -v -D TARGET_FX9860G /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ed423.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mb -version -ffreestanding -o /tmp/ccIjVUgH.s]
+        ignore line: [GNU C++17 (GCC) version 14.1.0 (sh3eb-elf)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/sh3eb-elf]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include/c++/14.1.0/backward]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e94a44d9eade39cc2f8244ad79532a60]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ed423.dir/']
+        ignore line: [ /home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccIjVUgH.s]
+        ignore line: [COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ed423]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed423.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/satanas/.local/bin/sh-elf-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper]
+        ignore line: [Target: sh3eb-elf]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --prefix=/home/satanas/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ed423' '-dumpdir' 'cmTC_ed423.']
+        link line: [ /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2 -plugin /home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so -plugin-opt=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQ73wQ.res -m shelf -o cmTC_ed423 -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0 -L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj -lgcc]
+          arg [/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/satanas/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNQ73wQ.res] ==> ignore
+          arg [-m] ==> ignore
+          arg [shelf] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ed423] ==> ignore
+          arg [-L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0] ==> dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0]
+          arg [-L/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib] ==> dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib]
+          arg [--no-warn-rwx-segments] ==> ignore
+          arg [CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+        ignore line: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start]
+        ignore line: [ defaulting to 00001000]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ed423' '-dumpdir' 'cmTC_ed423.']
+        ignore line: [/home/satanas/.local/bin/sh-elf-g++  -v -nostdlib -Wl --no-warn-rwx-segments CMakeFiles/cmTC_ed423.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ed423  -lgcc]
+        ignore line: [make[1]: Leaving directory '/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/CMakeFiles/CMakeScratch/TryCompile-oFhqoZ']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0] ==> [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0]
+        collapse library dir [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib] ==> [/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+        implicit libs: [gcc]
+        implicit objs: []
+        implicit dirs: [/home/satanas/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0;/home/satanas/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/satanas/.local/lib/cmake/fxsdk/CMakeDetermineFXCONVCompiler.cmake:6 (find_program)"
+      - "/home/satanas/.local/lib/cmake/fxsdk/Fxconv.cmake:4 (enable_language)"
+      - "CMakeLists.txt:7 (include)"
+    mode: "program"
+    variable: "FXCONV_COMPILER_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fxconv"
+    candidate_directories:
+      - "/opt/flutter/bin/"
+      - "/home/satanas/.local/bin/"
+      - "/usr/lib/jvm/java-21-openjdk/bin/"
+      - "/usr/lib/jvm/java-8-openjdk/bin/"
+      - "/home/satanas/.opencode/bin/"
+      - "/home/satanas/.nvm/versions/node/v22.22.2/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/opt/flutter/bin/fxconv"
+    found: "/home/satanas/.local/bin/fxconv"
+    search_context:
+      ENV{PATH}:
+        - "/opt/flutter/bin"
+        - "/home/satanas/.local/bin"
+        - "/usr/lib/jvm/java-21-openjdk/bin"
+        - "/usr/lib/jvm/java-8-openjdk/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.opencode/bin"
+        - "/opt/flutter/bin"
+        - "/home/satanas/.nvm/versions/node/v22.22.2/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+...

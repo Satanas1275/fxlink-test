@@ -1,0 +1,3 @@
+/run/media/satanas/data/codage/fxlink-test/linkgame/build-fx/CMakeFiles/linkgame.dir
+/run/media/satanas/data/codage/fxlink-test/linkgame/build-fx/CMakeFiles/edit_cache.dir
+/run/media/satanas/data/codage/fxlink-test/linkgame/build-fx/CMakeFiles/rebuild_cache.dir

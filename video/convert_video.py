@@ -80,7 +80,6 @@ if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Usage: python3 convert_video.py <input.webm> <output.bin> [seuil]")
         sys.exit(1)
-clear
     threshold = int(sys.argv[3]) if len(sys.argv) > 3 else 128
     success = convert_video(sys.argv[1], sys.argv[2], fps_target=20, threshold=threshold)
     sys.exit(0 if success else 1)

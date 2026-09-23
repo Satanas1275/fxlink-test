@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/run/media/satanas/data/codage/fxlink-test/keypad_controller/build-fx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
